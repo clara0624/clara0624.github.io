@@ -11,4 +11,5 @@ categories: dev
 또한 친구들과 노는 것과 게임 하는 것을 좋아합니다
 
 
-<img src="http://file2.nocutnews.co.kr/newsroom/image/2018/07/18/20180718120948825781_0_420_600.jpg" width = 500px; height =700px;></img>
+
+![Alt text](http://file2.nocutnews.co.kr/newsroom/image/2018/07/18/20180718120948825781_0_420_600.jpg)
