@@ -22,7 +22,9 @@ while 문은 우선 조건식이 참인지를 판단하여, 참이면 내부의 
 
 <pre>
 <code>
-inta=0;                                                                                                                                            while(a<3){                                                                                                                                               System.out.println((a+1)+"번째 실행중입니다");                                                                                 
+inta=0;                                                                                                                                           
+ while(a<3){                                                                                                                                               
+     System.out.println((a+1)+"번째 실행중입니다");                                                                                 
 }
 
 </code>
