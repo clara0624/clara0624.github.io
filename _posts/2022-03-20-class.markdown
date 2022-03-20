@@ -15,3 +15,76 @@ public class Exam03 {
 }
 </code>
 </pre>
+위와 같은 Exam03클래스에 Animal cat = new Animal(); 을 작성하면 객체를 만들 수 있다  new는 객체를 생성할 때 사용하는 키워드로 Exam03클래스에 객체인 cat을 생성할 수 있다 
+2.객체변수
+객체변수란 클래스 내부에서 선언된 변수를 의미한다
+<pre>
+<code>
+public class A {
+    public String a; // A클래스에서 선언된 a
+}
+</code>
+</pre>
+여기서 A클래스에서 선언된 a는 객체 변수이다  클래스에 의해 생성되는 것은 객체 그리고 그 클래스에 선언된 변수는 객체변수이고 멤버 변수, 인스턴스 변수라고도 말한다 멤버변수를 출력하려면 접근을 해야하는데 객체변수는 객체.객체변수와 같이 접근할수있다
+<pre>
+<code>
+public class A {
+    public String a; // A클래스에서 선언된 a
+
+    public static void main(String[] args) {
+        A a = new A();
+        A.a = "bean"; // 객체 A 객체 변수 a
+
+        System.out.println(A.a);
+    }
+}
+</code>
+</pre>
+위 코드를 실행하면 대입한 bean이 출력된다 
+(만약 아래와 같이 객체변수를 선언했지만 아무런 값도 대입하지 않았다면 null이라는 값이 출력된다 )
+3.메소드
+메소드란 클래스내에 구현된 함수로 중복되는 코드의 반복적인 프로그래밍을 피할 수 있기 때문에 사용한다 메소드의 구조는
+<pre>
+<code>
+public 리턴자료형 메소드명(입력자료형1 변수1 ...) {
+...
+    return 리턴값;
+}
+</code>
+</pre>
+와 같다 메소드의 예시로 아래와 같은 예를 들 수 있다
+<pre>
+<code>
+public int sum(int a, int b) {
+    return a+b;
+}
+</code>
+</pre>
+메소드를 호출하려면 객체변수이름.메소드이름()으로 메소드를 호출할 수 있다
+<pre>
+<code>
+Cat myCar = new Cat();  // 객체를 생성
+cat.setName("boby") //메소드 호출
+</code>
+</pre>
+ 위에 나왔던 Exam03 클래스에 setName 메소드를 추가하고 name에 값을 대입해주면 아래와 같이 된다 
+<pre>
+<code>
+public class Exam03 {
+    String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public static void main(String[] args) {
+        Exam03 cat = new Exam03();
+        System.out.println(cat.name);
+    }
+
+}
+</code>
+</pre>
+여기서 setname 메소드는 name이라는 문자열을 받고 출력은 없는 형태의 메소드이다 여기서 객체가 메소드를 호출하려면 cat.setName("boby"); 와 같이 호출해야한다
+
