@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "linux command"
+date:   2022-03-20 00:00:00 +0200
+description: Explain the linux command
+---
 linux 명령어
 ----------------------------------------
 - pwd :
