@@ -20,8 +20,7 @@ description: Explain the class
 
 -인터페이스 선언
 인터페이스는 class가 아닌 interface 라는 키워드를 이용하여 작성한다
-<pre>
-<code>
+```
 interface Animal {
 }
 
@@ -31,21 +30,19 @@ class Human {
     void setName(String name) {
         this.name = name;
     }
-}</code>
-</pre>
+}
+```
 -인터페이스 구현
 인터페이스는 자신이 직접 인스턴스를 생성할 수는 없다 따라서 인터페이스가 포함하고 있는 추상 메소드를 구현해 줄 클래스를 작성해야만 한다
-<pre>
-<code>
-class 클래스이름 implements 인터페이스이름 { ... }</code>
-</pre>
+```
+class 클래스이름 implements 인터페이스이름 { ... }
+```
 
 -인터페이스를 사용하는 이유
 인터페이스를 이용하여 클래스를 구현하면 다른 클래스와 대체가 유연해서 유지보수가 편해진다는 장점이 있기때문이다
 
 -예제
-<pre>
-<code>
+```
 interface Animal {
      public abstract void cry(); }
 
@@ -58,8 +55,8 @@ public class Exam01
     public static void main(String[] args) {
         Dog d = new Dog();
        
-        d.cry();</code>
-</pre>
+        d.cry();
+        ```
 
 
 
