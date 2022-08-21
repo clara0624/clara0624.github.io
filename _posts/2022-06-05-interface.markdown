@@ -64,7 +64,7 @@ public class Lecture01
 -다중상속
 인터페이스는 인터페이스로부터만 상속을 받을 수 있으며, 여러 인터페이스를 상속받을 수 있다
 
-예제
+-예제
 
 '''
 package lecture20220821;
@@ -106,6 +106,5 @@ public class Lecture02 {
         b.move();
 
     }
-
 '''
 위의 예제에서 car클래스와 Bicycle클래스는 각각 Vehicle와 Transportation클래스를 동시에 구현하고 있다
