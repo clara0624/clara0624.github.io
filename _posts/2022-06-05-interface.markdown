@@ -66,7 +66,7 @@ public class Lecture01
 
 -예제
 
-'''
+```
 package lecture20220821;
 
 interface Vehicle {
@@ -106,5 +106,6 @@ public class Lecture02 {
         b.move();
 
     }
-'''
+```
+
 위의 예제에서 car클래스와 Bicycle클래스는 각각 Vehicle와 Transportation클래스를 동시에 구현하고 있다
